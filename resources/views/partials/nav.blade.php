@@ -7,12 +7,12 @@
 					</div>
 					<div class="col-md-12 col-md-offset-0 text-center menu-1">
 						<ul>
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="sermons.html">Author</a></li>
+							<li class="active"><a href="{{ route('index')  }}">Home</a></li>
+							<li><a href="{{ route('authors')  }}">Author</a></li>
 							
-							<li><a href="events.html">Regration</a></li>
-							<li><a href="about.html">Log In</a></li>
-							<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="{{ route('register')  }}">Regration</a></li>
+							<li><a href="{{ route('login')  }}">Log In</a></li>
+							<li><a href="{{route('contact')}}">Contact</a></li>
 
 						</ul>
 					</div>

@@ -88,11 +88,7 @@
 				</div>
 			</div>
 		</div>
-		
-
-		
-		
-		<div id="fh5co-events">
+        <div id="fh5co-events">
 			<div class="row animate-box">
 				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
 					<h2>Our Quotes</h2>
@@ -136,7 +132,8 @@
 							<div class="item">
 								<div class="bible-verse-slide active text-center">
 									<blockquote>
-										<p>&ldquo;For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.&rdquo;</p>
+										<p>&ldquo;For God so loved the world, that he gave his only begotten
+                                         Son, that whosoever believeth in him should not perish, but have everlasting life.&rdquo;</p>
 										<span>John 3:16</span>
 									</blockquote>
 								</div>
@@ -218,4 +215,5 @@
 				</div>
 			</div>
 		</div>
+        </div>
 @endsection

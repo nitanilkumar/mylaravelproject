@@ -11,10 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-Route::get('/about', function () {
-    return view('about');
-});
+Route::get('/', 'IndexController@index')->name('index');
+Route::get('/authors', 'IndexController@authors')->name('authors');
 
+Route::get('/contact', 'IndexController@getcontact')->name('contact');
+Route::post('/submit-contact', 'IndexController@submitcontact')->name('contact_submit');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/post-quote', 'HomeController@postQuote')->name('post_quote');
